@@ -38,7 +38,7 @@ env = gym.make("CartPole-v1")
     
 - **Observation space:** Continuous with four state variables (cart position, cart velocity, pole angle, pole angular velocity).
     
-- **Reward structure:** +1 for every step the pole remains balanced.
+- **Reward structure:** +1 constant reward for each movement.
     
 - **Episode termination:** The episode ends when the pole falls beyond a certain angle or the cart moves too far.
     
